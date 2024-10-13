@@ -6,7 +6,7 @@ It's one of the simplest examples of a "divide and conquer" algorithm, which is 
 that repeatedly reduces the problem into smaller sub-problems until a solution is found.
 */
 
-public class Binary_Search {
+class Binary_Search {
     public static int binary_search_int(int[] arr, int x) {
         // Initialize the variables. start and end define our search space
         int start, end, midpoint;
